@@ -1,0 +1,58 @@
+
+
+.body{
+    height: 7vmax;
+}
+
+/* .dropdown{
+    /* position: relative;  
+} */
+
+.cardBody{
+    background-color: white;
+    overflow: visible;
+}
+
+.dropdown-btn{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.dropdown-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    padding: 1vmax;
+
+    background-color: white;
+    -webkit-box-shadow: 3px 4px 15px 14px rgba(0,0,0,0.22);
+    -moz-box-shadow: 3px 4px 15px 14px rgba(0,0,0,0.22);
+    box-shadow: 3px 18px 15px 14px rgba(0,0,0,0.22);
+}
+
+.dropdown-item{
+    padding: 1vmax;
+    width: 98%;
+    border-bottom: 1px solid rgb(118, 118, 118);
+    border-radius: 1vmax;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+
+
+.dropdown-item:hover{
+    color: rgb(22, 22, 22);
+    background-color: rgb(226, 226, 226);
+}
+
+
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }

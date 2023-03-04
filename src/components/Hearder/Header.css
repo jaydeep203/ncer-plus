@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.Navbar{
+    height: 4vmax;
+    background-color: rgb(35, 35, 35);
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.navIcons{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title{
+    height: 15vmax;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#name{
+    font-size: 4vmax;
+    font-family: 'Roboto Mono', monospace;
+}
+#subTitle{
+    font-size: 2vmax;
+    color: rgba(83, 83, 83, 0.877);
+}
+
+.MenuBar{
+    background-color: rgb(82, 81, 81);
+}
+
+.options{
+    width: 20vmax;
+    height: 20vmax;
+    border: none;
+    margin-left: 5vmax;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    -webkit-box-shadow: 13px 17px 44px -7px rgba(0,0,0,0.72);
+    -moz-box-shadow: 13px 17px 44px -7px rgba(0,0,0,0.72);
+    box-shadow: 13px 17px 44px -7px rgba(0,0,0,0.72);
+}
+.options > ul{
+    padding: 0;
+    width: 90%;
+}
+
+.optionli{
+    list-style: none;
+    background-color: white;
+    padding: 3px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.icons{
+    position: absolute;
+}
+
+
+

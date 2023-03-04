@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.imgdiv{
+    width: 100%;
+    height: 27vmax;
+    display: flex;
+    justify-content: center;
+    
+    margin: 4vmax;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img{
+    height: 30vmax;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+@media(max-aspect-ratio: 7/10){
+    /* .App{
+        height: 1000px;
+    } */
+    .upperSlideBar{
+        height: 25% !important;
+    }
+    .menuSlideBar{
+        height: 17% !important;
+    }
+    .supportSlideBar{
+        height: 10% !important;
+    }
+    .credits{
+        height: 10% !important;
+    }
+    .Navbar{
+        height: 10% !important;
+    }
+    .openClose{
+        padding: 1.5vw !important;
+    }
+    .Header>.Title{
+        height: 14rem !important;
+    }
+    .Header>.Title>#name{
+        font-size: 11vw !important;
+        padding: 2vw !important;
+    }
+    .Header>.Title>#subTitle{
+        font-size: 4vw !important;
+        padding: 1vw !important;
+        margin-bottom: 1vw;
+    }
+    
+    .dropdown>.menu-btn{
+        font-size: 3vw !important;
+        width: 15vw !important;
+        height: 10vw !important;
+        
+    }
+    .MenuBar1{
+        height: 76vw !important;
+        overflow-y: auto !important;
+    }
+    .menu-items{
+        width: 52vw !important;
+    }
+    .menu-li{
+        padding: 1vw !important;
+    }
+    .cardBody{
+        font-size: 4vw !important;
+    }
+    .title>p{
+        padding: 4vw !important;
+    }
+    .Footer{
+        position: fixed !important;
+        bottom: 0 !important;
+    }
+
+    
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (max-width: 400px){
+    .Header{
+        width: 100% !important;
+    }
+    .Navbar{
+        height: 15vw !important;
+    }
+    .navIcons{
+        width: 23vw !important;
+        font-size: 5vw !important;
+    }
+    .Para{
+        font-size: 5vw !important;
+        height: fit-content !important;
+        padding: 2vw !important;
+    }
+    .About> .Para>  #submit{
+        width: 30vw !important;
+        height: 11vw !important;
+        margin: 8vw 0 0 !important;
+    }
 }

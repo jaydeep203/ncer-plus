@@ -1,0 +1,48 @@
+.MenuBar1{
+    height: 38vmax;
+}
+
+.dropdown{
+    width: 100%;
+    background-color: rgb(82, 81, 81);
+    
+}
+
+.menu-btn, .menu-content{
+    padding: 1vmax;
+    margin-left: 2vmax;
+    color: white;
+    cursor: pointer;
+}
+
+.menu-btn{
+    width: 5vmax;
+    height: 100%;
+    color: white;
+    background-color: rgb(45, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-btn:hover{
+    background-color: rgb(42, 41, 41);;
+}
+
+
+.menu-items{
+    padding: 1vmax;
+    border-radius: 1vmax;
+    border-bottom: 1px solid rgb(63, 62, 62);
+    padding-right: 70%;
+}
+.menu-items:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.menu-li{
+    text-decoration: none;
+    color: white;
+}
+
+

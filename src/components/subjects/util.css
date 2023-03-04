@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.cardBody{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3vmax;
+
+}
+
+.cards{
+    width: 80%;
+    height: 5vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vmax;
+    padding: 1vmax;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+    font-family: 'Roboto Mono', monospace;
+    -webkit-box-shadow: 3px 4px 15px 14px rgba(0,0,0,0.22);
+    -moz-box-shadow: 3px 4px 15px 14px rgba(0,0,0,0.22);
+    box-shadow: 3px 4px 15px 14px rgba(0,0,0,0.22);
+}
+
+.cards:hover{
+    color: rgb(22, 22, 22);
+    background-color: rgb(226, 226, 226);
+    -webkit-box-shadow: 3px 4px 15px 14px rgba(0, 0, 0, 0.277);
+    -moz-box-shadow: 3px 4px 15px 14px rgba(0, 0, 0, 0.275);
+    box-shadow: 3px 4px 15px 14px rgba(0, 0, 0, 0.279);
+}
+
+.imgdiv{
+    width: 100%;
+    height: 27vmax;
+    display: flex;
+    justify-content: center;
+    
+    margin: 4vmax;
+}
+
+.img{
+    height: 30vmax;
+}
+
+.title{
+    font-size: 2vmax;
+    margin: 2vmax 0vmax 0vmax 3vmax;
+}
+
+
+
+.note{
+    outline: none;
+    border: none;
+}
+
