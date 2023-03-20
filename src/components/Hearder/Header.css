@@ -13,12 +13,17 @@
     text-decoration: none;
     color: white;
     font-size: 1.5rem;
-    margin-left: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.navIcons-home-about{
+    display: flex;
+    margin-left: 6rem;
+    width: 21vmax;
+    justify-content: space-between;
+}
 .Title{
     height: 15vmax;
     color: white;

@@ -2,16 +2,13 @@ import React, { useState } from 'react';
 import './Header.css';
 import './Menu.css';
 import {ChevronDown, ChevronUp} from 'react-feather';
+import {Link} from "react-router-dom";
 
 
 
 const MenuBar = () => {
   const [isOpen, setIsOpen]= useState(false);
   const Options = [
-    {
-      title:"HOME",
-      link: '/',
-    },
     {
       title:"MAHADBT WEBSITE",
       link: 'https://mahadbt.maharashtra.gov.in/Login/Login',
@@ -54,7 +51,9 @@ const MenuBar = () => {
           isOpen &&
         <div className='menu-content'>
           
-          
+          <div className='menu-items'>
+              <Link className='menu-li' to="/">HOME</Link>
+          </div>
             {
               Options.map((data, index)=>(
                 

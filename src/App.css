@@ -91,18 +91,56 @@
     .Navbar{
         height: 15vw !important;
     }
+    .navIcons-home-about{
+        margin-left: 4rem !important;
+        width: 56% !important;
+        display: flex !important;
+        justify-content: space-around !important;
+    }
     .navIcons{
         width: 23vw !important;
-        font-size: 5vw !important;
+        font-size: 4vw !important;
+    }
+    .navIcons > svg{
+        width: 5vw !important;
+    }
+    .Header>.Title {
+        height: 10rem !important;
+    }
+    .MenuBar1{
+        height: 30rem !important;
+    }
+    .menu-items{
+        padding: 1rem 0 !important;
+        width: 75vw !important;
+    }
+    .LandingPage{
+        margin: 17px 0 !important;
+        height: 40rem !important;
+    }
+    .cards{
+        margin: 17px 0 !important;
+        height: 4rem !important;
+        font-size: 1.2rem !important;
     }
     .Para{
         font-size: 5vw !important;
         height: fit-content !important;
         padding: 2vw !important;
     }
-    .About> .Para>  #submit{
-        width: 30vw !important;
-        height: 11vw !important;
+    .About{
+        height: 65vh !important;
+    }
+    .About> .Para{
+        height: 50vh !important;
+    }
+    .About>.Para>a>#submit{
+        width: 20vw !important;
+        padding: 1rem !important;
+        height: 4rem !important;
         margin: 8vw 0 0 !important;
+    }
+    .cardBody{
+        margin-bottom: 10rem !important;
     }
 }

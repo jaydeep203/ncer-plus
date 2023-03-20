@@ -25,7 +25,7 @@ const SlideBar = () => {
           </div>
           <div className='textupper'>
             <h1 className='upper-text'>NCER+ WEB</h1>
-            <p id='version' className='upper-text'>version 1.1</p>
+            <p id='version' className='upper-text'>version 1.5</p>
           </div> 
         </div>
         <div className="menuSlideBar">

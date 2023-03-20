@@ -16,8 +16,11 @@ const Header = () => {
     }
     <div className='Header'>
         <div className='Navbar'>
-          <Link className='navIcons' to="/"><Home size={30} color="white"/>HOME</Link>
-          <Link className='navIcons' to="/about"><Info size={30} color="white"/>ABOUT</Link>
+          <div className='navIcons-home-about' >
+            <Link className='navIcons' to="/"><Home size={30} color="white"/>HOME</Link>
+            <Link className='navIcons' to="/about"><Info size={30} color="white"/>ABOUT</Link>
+
+          </div>
         </div>
         <div className='Title'>
             <h1 id='name'>NCER PLUS</h1>
