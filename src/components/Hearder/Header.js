@@ -3,7 +3,7 @@ import './Header.css';
 import MenuBar from './MenuBar';
 import SlideBar from './SlideBar/SlideBar';
 import { Link } from 'react-router-dom';
-import { Home, Info } from 'react-feather';
+import { Home, Info, Paperclip } from 'react-feather';
 
 const Header = () => {
   
@@ -19,6 +19,7 @@ const Header = () => {
           <div className='navIcons-home-about' >
             <Link className='navIcons' to="/"><Home size={30} color="white"/>HOME</Link>
             <Link className='navIcons' to="/about"><Info size={30} color="white"/>ABOUT</Link>
+            <Link className='navIcons' to="/practicles"><Paperclip size={30} color="white"/>PRACTICLES</Link>
 
           </div>
         </div>

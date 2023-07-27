@@ -1,0 +1,8 @@
+
+
+@media only screen and (max-width:400px){
+    .navIcons{
+        width: 19vw !important;
+        font-size: 3vw !important;
+    }
+}

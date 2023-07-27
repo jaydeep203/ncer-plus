@@ -10,6 +10,7 @@ import Comp from './components/subjects/Computer/Computer';
 import Mech from './components/subjects/Mechanical/Mechanical';
 import Entc from './components/subjects/Entc/Entc';
 import About from './components/About/About';
+import ForPracticles from "./components/ForPracticles/ForPracticles";
 
 import { Branches } from './components/LandingPage/LandingPage';
 
@@ -44,6 +45,8 @@ function App() {
             <Route path='/computer/:id' element={<Comp/>} />
             <Route path='/mechanical/:id' element={<Mech/>} />
             <Route path='/entc/:id' element={<Entc />} />
+            
+            <Route path='/practicles' element={<ForPracticles />} />
 
 
             <Route path='/About' element={<About />} />
