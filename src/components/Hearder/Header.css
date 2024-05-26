@@ -23,6 +23,7 @@
     margin-left: 6rem;
     width: 21vmax;
     justify-content: space-between;
+    gap:2rem;
 }
 .Title{
     height: 15vmax;
